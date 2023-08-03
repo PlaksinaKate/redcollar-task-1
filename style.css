@@ -576,3 +576,26 @@ ul {
 .hero__desc-btn:hover .hero__desc-btn-link {
   background-color: #a59678b3;
 }
+
+/* FEATURES */
+.features {
+  background-color: var(--light);
+}
+
+.features__wr {
+  padding: 64px 0;
+}
+
+.features__item {
+  flex-basis: calc((100% - 18%)/3);
+  text-align: center;
+}
+
+.features__item-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.33;
+
+  color: var(--gold);
+  margin-bottom: 32px;
+}
