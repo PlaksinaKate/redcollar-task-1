@@ -442,6 +442,12 @@ a {
   color: #fff;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .wr {
   max-width: 1312px;
   margin: 0 auto;
@@ -486,3 +492,25 @@ a {
   flex-direction: row-reverse;
 }
 
+/* HEADER */
+.header {
+  padding: 32px 0;
+  background-color: var(--header-dark);
+}
+
+.header__menu li {
+  margin-right: 32px;
+  transition: color 0.45s ease-out;
+}
+
+.header__menu li:last-child {
+  margin-right: 0;
+}
+
+.header__menu li a {
+  transition: color 0.45s ease-out;
+}
+
+.header__menu li:hover a {
+  color: var(--gold);
+}
