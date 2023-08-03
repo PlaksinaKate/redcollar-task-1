@@ -424,11 +424,12 @@ body {
   max-width: 100%;
   background: #fff;
   color: var(--header-dark);
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: normal;
   font-family: 'Inter';
   -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
   /* overflow-x: hidden; */
 }
 
@@ -439,7 +440,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--light);
 }
 
 ul {
@@ -501,6 +502,8 @@ ul {
 .header__menu li {
   margin-right: 32px;
   transition: color 0.45s ease-out;
+
+  font-weight: 600px;
 }
 
 .header__menu li:last-child {
@@ -513,4 +516,63 @@ ul {
 
 .header__menu li:hover a {
   color: var(--gold);
+}
+
+/* HERO */
+.hero {
+  background-color: var(--dark);
+}
+
+.hero__wr {
+  padding: 128px 0;
+}
+
+.hero__title-wr {
+  flex-basis: 50%;
+}
+
+.hero__title {
+  max-width: 514px;
+  text-align: left;
+
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.125;
+  color: var(--light);
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.hero__desc {
+  flex-basis: 50%;
+}
+
+.hero__desc-wr {
+  max-width: 334px;
+  margin: 0 auto;
+}
+
+.hero__desc-text {
+  font-weight: 400;
+  color: var(--light);
+  margin-bottom: 24px;
+}
+
+.hero__desc-btn {
+  cursor: pointer;
+}
+
+.hero__desc-btn-link {
+  text-transform: uppercase;
+  font-weight: 700;
+
+  padding: 8px 24px;
+  border-radius: 16px;
+  background-color: var(--gold);
+  transition: background-color 0.45s ease-out;
+}
+
+.hero__desc-btn:hover .hero__desc-btn-link {
+  background-color: #a59678b3;
 }
