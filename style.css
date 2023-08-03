@@ -656,3 +656,39 @@ ul {
 .article__articles-article-text {
   font-weight: 400;
 }
+
+/* FOOTER */
+.footer {
+  background-color: var(--header-dark);
+  padding: 96px 0;
+}
+
+.footer__title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.33;
+
+  color: var(--light);
+
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.footer__item-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.33;
+
+  color: var(--gold);
+}
+
+.footer__item-text {
+  max-width: 373px;
+  width: 100%;
+  color: var(--light);
+}
+
+.footer__item-text,
+.footer__item-link {
+  margin-top: 12px;
+}
