@@ -659,6 +659,14 @@ h4 {
   margin-top: 12px;
 }
 
+.footer__item-link a {
+  transition: color 0.45s ease-out;
+}
+
+.footer__item-link:hover a{
+  color: var(--gold);
+}
+
 
 @media screen and (min-width: 0) {
   h1 {
