@@ -478,9 +478,9 @@ h4 {
 }
 
 .wr {
-  /* max-width: 1600px; */
-  max-width: 1312px;
-  margin: 0 auto;
+  max-width: 1600px;
+/*   max-width: 1312px;
+ */  margin: 0 auto;
   padding: 0 24px;
   position: relative;
 }
